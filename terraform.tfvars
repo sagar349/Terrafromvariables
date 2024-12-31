@@ -1,0 +1,7 @@
+prefix              = "myvm"
+resource_group_name = "my-vm-rg"
+location           = "eastus"
+vm_size            = "Standard_B1s"
+admin_username     = "azureuser"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
+ssh_private_key_path = "~/.ssh/id_rsa"
